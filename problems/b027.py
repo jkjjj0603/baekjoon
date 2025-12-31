@@ -11,4 +11,4 @@ while True:
     if sum(divs) == n:
         print(f"{n} = "+" + ".join(map(str,divs)))
     else:
-        print(f"{n} is NOT perfect")
+        print(f"{n} is NOT perfect.")
