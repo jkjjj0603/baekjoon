@@ -17,12 +17,12 @@ for i in range(n):
             if classes[i][k] == classes[j][k]:
                 cnt += 1
                 break
-            
+
     student_num = i + 1
     if cnt > best_cnt:
         best_cnt = cnt
         best_student = student_num
-    elif cnt == best_cnt or student_num < best_student:
+    elif cnt == best_cnt and student_num < best_student:
         best_student = student_num
 
 print(best_student)
