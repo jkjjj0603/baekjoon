@@ -17,7 +17,8 @@ for num,_ in top5:
 
 for _,idx in top5:
     idxs.append(idx)
-    idxs.sort()
+    
+idxs.sort()
 
 print(total)
 
