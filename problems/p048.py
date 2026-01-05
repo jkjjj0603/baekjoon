@@ -19,4 +19,3 @@ for j in range(m):
 for k in range(3):
     print(rank2[k])
     
-    
