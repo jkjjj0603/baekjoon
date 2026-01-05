@@ -15,8 +15,8 @@ while True:
         low = max(low,guess + 1)
     elif hint == "right on":
         if guess <= high and guess >= low:
-            print("Stan is dishonest")
-        else:
             print("Stan may be honest")
+        else:
+            print("Stan is dishonest")
         low = 1
         high = 10 
